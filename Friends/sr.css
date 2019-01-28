@@ -77,7 +77,7 @@ body {
 }
 
 #BeanSquad h1{
-  color: #FF0000;
+  color: #ffae42;
   text-decoration: underline;
 }
 
@@ -140,7 +140,7 @@ body {
 
 #back-btn a{
   text-decoration: none;
-  background-color: #ff5454;
+  background-color: #ffae42;
   color: #000;
   border-radius: 20px;
   padding: 5px;
