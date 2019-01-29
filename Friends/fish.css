@@ -76,6 +76,16 @@ body {
 .navbar-nav{display: none;}
 }
 
+#back-btn a{
+  text-decoration: none;
+  background-color: aqua;
+  color: darkblue;
+  border-radius: 20px;
+  padding: 5px;
+  font-style: oblique;
+  font-size: 20px;
+}
+
 #BeanSquad h1{
   color: aqua;
   text-decoration: underline;
