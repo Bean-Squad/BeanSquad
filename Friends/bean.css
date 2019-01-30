@@ -145,3 +145,9 @@ body {
   from {opacity: 0;}
   to {opacity:1 ;}
 }
+
+#cosmetics h3{
+  color: orange;
+  text-decoration: underline;
+  text-decoration-color: #ff5c00;
+}
