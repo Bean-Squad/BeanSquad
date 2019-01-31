@@ -126,3 +126,11 @@ button:hover{
 #box4:hover #sr{
   opacity: 1;
 }
+
+#pix{
+  opacity: 0;
+  transition: all 0.5s;
+}
+#box5:hover #pix{
+  opacity: 1;
+}
