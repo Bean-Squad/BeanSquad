@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+
+<meta charset="utf-8">
+
+<title>BeanSquad | Home</title>
+
+<link rel="stylesheet" href="beansquad.css">
+
+<link rel="icon" href="https://images-ext-1.discordapp.net/external/vS-gpQAZfBWSM325vuyGQuJNWH83XJlxZak_n8BkYIk/https/visage.surgeplay.com/head/64/f23ff61bef5b40f58285bad534e1a205">
+
+</head>
+
+<body>
+
+<nav class="navbar">
+
+<span class="open-slide">
+
+<a href="#" onclick="openSlideMenu()">
+
+<svg width="30" height="30">
+
+<path d="M0,5 30,5" stroke="#fff" stroke-sidth="5"/>
+
+<path d="M0,14 30,14" stroke="#fff" stroke-sidth="5"/>
+
+<path d="M0,23 30,23" stroke="#fff" stroke-sidth="5"/>
+
+</svg>
+
+</a>
+
+</span>
+
+<ul class="navbar-nav">
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="Twitter.html">Twitter</a></li>
+
+<li><a href="YouTube.html">Youtube</a></li>
+
+<li><a href="Discord.html">Discord</a></li>
+
+</ul>
+
+</nav>
+
+<div id="side-menu" class="side-nav">
+
+<a href="#" class="btn-close" onclick="closeSideMenu()">&times;</a>
+
+<a href="index.html">Home</a>
+<a href="BeanSquad/BeanSquad.html">BeanSquad</a>
+<a href="suggestions.html">Suggestions</a>
+<a href="Twitter.html">Twitter</a>
+
+<a href="YouTube.html">Youtube</a>
+
+<a href="Discord.html">Discord</a>
+<a href="Donate.html">Donate</a>
+<a href="friends.html">Friends</a>
+<br><br><br><br><br><br><br><br>
+
+</div>
+
+
+<div id="BeanSquad">
+
+<center>
+<br>
+<br>
+<br>
+<br>
+
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 2</div>
+    <img src="https://crafatar.com/renders/body/02d6f54cc3c74ce48a7c186eb215a21a?overlay" style="width:75px">
+    <br><br><br>
+    <div class="text">SiddTEM</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 2</div>
+    <img src="https://crafatar.com/renders/body/1361e84eb3e34718a2e8a4682cf346bb?overlay" style="width:75px">
+    <br><br><br>
+    <div class="text">TorpidFlares</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+
+
+<script>
+
+function openSlideMenu(){
+
+document.getElementById('side-menu').style.width= '250px';
+
+document.getElementById('main').style.marginLeft= '250px';
+      }
+
+function closeSideMenu(){
+        document.getElementById('side-menu').style.width= '0';
+
+document.getElementById('main').style.marginLeft= '0';
+      }
+
+
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      // Next/previous controls
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      // Thumbnail image controls
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+      }
+</script>
+<br>
+
+</body>
+</html>
