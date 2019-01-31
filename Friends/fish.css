@@ -145,3 +145,13 @@ body {
   from {opacity: 0;}
   to {opacity:1 ;}
 }
+
+#BeanSquad p.cos{
+  color: #009999;
+}
+
+#cosmetics h3{
+  color: aqua;
+  text-decoration: underline;
+  text-decoration-color: #009999;
+}

@@ -147,3 +147,13 @@ body {
   font-style: oblique;
   font-size: 20px;
 }
+
+#BeanSquad p.cos{
+  color: #6633cc;
+}
+
+#cosmetics h3{
+  color: #9370DB;
+  text-decoration: underline;
+  text-decoration-color: #6633cc;
+}
