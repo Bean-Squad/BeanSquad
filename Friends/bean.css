@@ -155,3 +155,8 @@ body {
 #BeanSquad p.cos{
   color: #ff5c00;
 }
+
+#hidden a{
+  color: #292f34;
+  text-decoration: none;
+}
