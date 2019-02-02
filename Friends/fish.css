@@ -155,3 +155,7 @@ body {
   text-decoration: underline;
   text-decoration-color: #009999;
 }
+
+#BeanSquad a{
+  text-decoration: none;
+}
