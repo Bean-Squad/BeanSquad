@@ -88,6 +88,27 @@ p1 {
   text-decoration: none;
 }
 
+#packs a{
+  color: orange;
+  text-decoration: none;
+  background-color: black;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+#packs a:hover{
+  color: black;
+  text-decoration: none;
+  background-color: darkgrey;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
 
 button{
 border: none;
